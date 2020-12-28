@@ -14,7 +14,7 @@ names_col = db.get_collection('names_col')
 
 @app.route('/addname/<name>/')
 def addname(name):
-    names_col.insert_one({"name": name.lower()})
+    names_col.insert_one({"name": name.capitalize()})
     return redirect(url_for('getnames'))
 
 @app.route('/getnames/')
