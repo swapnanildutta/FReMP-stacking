@@ -21,4 +21,10 @@
     $pip3 install -r requirements.txt
    ```
 
-3.
+3. Run the [app.py](app.py).
+   
+   ```bash
+    $python3 app.py
+   ```
+
+4. Works done. Now over to frontend.
