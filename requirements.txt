@@ -7,5 +7,5 @@ Flask-Migrate==3.1.0
 Flask-Moment==1.0.2
 Flask-Script==2.0.6
 Flask-SQLAlchemy==2.5.1
-Flask-WTF==0.15.1
+Flask-WTF==1.0.0
 pymongo==4.0.2
